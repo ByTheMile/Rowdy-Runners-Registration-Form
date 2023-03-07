@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowdy Runners 5k Registration | Casey Umile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <fieldset class="fieldset1">
+
+        <h1 id="title">| Rowdy Runners |</h1>
+
+        <p id ="description"><em>Looking to run a 5k? Register here!</em></p>
+
+    <form id="5k-form" name="5k-form">
+
+            <label id="name-label" for="name">Name<input id="name" name="name" type="text" placeholder="Full Name" required></label>
+
+            <label id="email-label" for="email">Email<input id="email" name="email" type="email" placeholder="Email" required></label>
+
+            <label id="age-label" for="age">Age<input id="age" name="age" type="number" min="13" max="100" placeholder="Age" required></label>
+    </fieldset>
+
+    <fieldset class="fieldset2">
+            Have you ran a 5k before?
+            <label><input type="radio" name="yes-no" class="fieldset2">Yes</input></label>
+            <label><input type="radio" name="yes-no" class="fieldset2">No</input></label>
+            <br>
+            Experienced any recent injuries and/or surgeries?
+            <label><input type="radio" name="yes-no" class="fieldset2">Yes</input></label>
+            <label><input type="radio" name="yes-no" class="fieldset2">No</input></label>
+            <br>
+            How many times do you go on a run/jog every week?
+            <select>
+                <option value="">Select the most accurate option</option>
+                <option value="1">1 time</option>
+                <option value="2">2-3 times</option>
+                <option value="3">4-5 times</option>
+                <option value="4">6-7 times</option>
+                <option value="5">7+ times</option>
+            </select>
+    </fieldset>
+    <fieldset class="fieldset3">
+            List any disadvantages you may have that you'd want to be recognized:
+            <br>
+           <textarea placeholder="ex. I take medication for..."></textarea>
+            <p>What materials do you not have that you'd want us to supply you with?</p>
+
+            <label for="water-bottle">
+            <input id="water" name="water-bottle" value="water-bottle" type="checkbox" class="water">Water Bottle(s)</label>
+
+            <label for="shoes">
+            <input id="shoes" name="shoes" value="shoes" type="checkbox" class="shoes">Shoes</label>
+
+            <label for="snacks">
+            <input id="snacks" name="snacks" value="snacks" type="checkbox" class="snacks">Snacks</label>
+            
+            <label for="clothes">
+            <input id="clothes" name="clothes" value="clothes" type="checkbox" class="clothes">Clothes</label>
+            
+            <input id="other" name="other" value="other" type="checkbox" class="other"></label>Other <textarea class="textarea2" placeholder="Special Request..."></textarea> 
+    </fieldset>
+        
+    <fieldset class="fieldset4">
+        Any questions before you get rough n' rowdy!? 
+        <br><br><br>
+            <textarea placeholder="Ask away!"></textarea>
+            <br><br><br><br>
+            <p>If not, submit this form and you're ready to go, see you there!</p>
+    </fieldset>
+        <input type="submit" name="submit">
+        <footer>
+            <em>© Casey Umile</em>
+            <p><strong>Location:</strong> <em>(845) 351-5735
+                83 Pocono Ranchlands
+                Bushkill, Pennsylvania(PA), 18324</em>
+            </p>
+            ($5 admission fee - After arrival come to the front desk to be accompanied by a Staff member)
+        </footer>
+    </form>
+</body>
+</html>

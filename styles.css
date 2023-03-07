@@ -1,0 +1,75 @@
+body{
+min-height: 100%;
+width: 100%;
+height: 100vh;
+margin: 0;
+background-color: rgba(31, 59, 71, 0.944);
+color: white;
+font-family: Tahoma;
+font-size: 16px;
+}
+fieldset{
+    text-align: center;
+    line-height: 1.5;
+    border: hidden;
+    padding: 2rem 0;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;}
+.fieldset1 #name,#email{
+    height: 10px
+}
+.fieldset1 #age{
+    width: 40px;
+    height: 10px;
+}
+input{
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.fieldset2{
+    line-height: 3;
+}
+.fieldset3 p{
+    margin-top: 30px;
+}
+.fieldset3 textarea{
+    width: 50vw;
+    margin-top: 10px;
+}
+.fieldset3 .textarea2 {
+    width: 20vw;
+    height: 15px;
+    margin: -5px;
+    margin-left: 5px;
+}
+.fieldset4{
+    line-height: 0.5;
+}
+footer{
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    background-color: black;
+}
+.fieldset4 textarea{
+    width: 50%;
+    height: 30px;
+}
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(30, 100, 52);
+    border-color: black;
+    color: white;
+  }
+ 
+ 
